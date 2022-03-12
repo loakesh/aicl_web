@@ -2,14 +2,6 @@
 from fastapi import FastAPI,Request
 from typing import Optional
 from pydantic import BaseModel
-import pybase64
-import time
-
-
-from bson.objectid import ObjectId
-print(ObjectId())
-
-
 
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
